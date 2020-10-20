@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url(https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 30rem;
+  align-items: center;
+}
+.header figure {
+  padding: 0.5rem;
+  flex-grow: 3;
+}
+.header figure img {
+  width: 5rem;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-nav li {
+  font-size: 1.6rem;
+  padding: 0 2rem;
+  flex-grow: 1;
+}
+.header-nav li a {
+  color: white;
+  text-decoration: none;
+}
+.main {
+  width: 100vw;
+  display: flex;
+
+  height: 80vh;
+}
+.aside-section {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.aside-section div {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+}
+.main-section {
+  width: 100vw;
+  align-self: center;
+  text-align: center;
+}
+.main-section h1 {
+  font-size: 4rem;
+  color: white;
+}
+.main-section p {
+  color: white;
+  font-size: 2rem;
+}
+.footer {
+  height: 10rem;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.footer ul li img {
+  width: 5rem;
+}

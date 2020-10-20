@@ -1,0 +1,40 @@
+.main-nav {
+  margin-top: 10px;
+  /* Quitamos los puntos o discos laterales aplicandolos al ul y quitandolos de li */
+  list-style: none;
+  padding-left: 0;
+  background-color: #13a4a4;
+}
+
+.main-nav__item {
+  /* Para poner los elementos de forma horizontal */
+  display: inline-block;
+}
+
+/* Especificidad en css */
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Pseudoclases */
+
+/* :hover quiere decir que si ponemos el maouse encima de este hay un efecto o estado */
+
+.main-nav__item a:hover {
+  color: blue;
+}
+/* le indicamos que cuando hay un click que es activo hay un efecto o estado */
+.main-nav__item a:active {
+  color: red;
+}
+
+/* Pseudoelementos */
+
+.main-nav__item a::after {
+  /* con la propiedad content le indicamos que agrege contenido */
+  content: " | ";
+}

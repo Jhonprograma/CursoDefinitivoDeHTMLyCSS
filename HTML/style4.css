@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+}
+.conteiner {
+  border: 1rem solid black;
+  margin: auto;
+  width: 40rem;
+  background-color: #dea971;
+}
+.title {
+  width: 30rem;
+  border: 2rem outset #e4ba83;
+  position: relative;
+  bottom: 3rem;
+  margin: auto;
+  background-color: #e4ba83;
+}
+.title h3 {
+  font-size: 2rem;
+}
+.info img {
+  border: 1rem solid gray;
+  width: 30rem;
+}
+.info-about {
+  background-color: #feffed;
+  width: 35rem;
+  height: 10rem;
+  margin: 2rem auto;
+  border: 0.5rem outset #e4ba83;
+  padding: 0.5rem;
+}
+.info-about h3 {
+  text-align: start;
+  font-size: 1.6rem;
+}
+.info-about p {
+  text-align: start;
+  font-size: 1.6rem;
+}

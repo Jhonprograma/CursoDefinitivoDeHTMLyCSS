@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: #222734;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 0;
+}
